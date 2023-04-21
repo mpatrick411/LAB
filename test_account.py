@@ -10,6 +10,7 @@ class Test:
 
     def test_init(self):
         assert self.a1.get_name() == 'John'
+        assert self.a1.get_balance() == 0
         pass
 
     def test_deposit(self):
