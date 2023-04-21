@@ -9,6 +9,7 @@ class Test:
         del self.a1
 
     def test_init(self):
+        assert self.a1.get_name() == 'John'
         pass
 
     def test_deposit(self):
